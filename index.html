@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tic Tac Toe</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <main>
+            <div class="play-box">
+                 <div class="top">
+                    <div class="choose-difficulty-section">
+                        <label for="opponent-select">Choose Opponent:</label>
+
+                        <select name="opponents" id="opponent-select">
+                            <!-- <option value="">--Please choose an opponent--</option> -->
+                            <option value="Vs">Vs</option>
+                            <option value="AI">AI</option>
+                            
+                        </select>
+                    </div>
+                    <div class="choose-piece-section">
+                        <div class="choose-x choice">X</div>
+                        <div class="choose-o">O</div>
+                    </div>
+                </div>
+                <div class="middle">
+                    <div class="main-board"> 
+                    
+
+                    </div>
+                </div>
+                
+                <div class="bottom">
+                    <input type="button" class="restart-button" value="Restart">
+                </div> 
+            </div>
+            <div class="decision">
+                <h1 class="decision-text">Draw</h1>
+            </div>
+        </main>
+
+        <script src="js/index.js"></script>
+    </body>
+</html>
