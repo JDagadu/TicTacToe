@@ -516,7 +516,7 @@ mainBoard.addEventListener('click',(event)=>{
                     
             //         return element;
             //  }).length
-            )
+            // )
                 if(gameBoard.checkIfWinnerFound(gameBoard.getPreviousPlayerArray())){
                     decision.style.display='flex';
                     playbox.style.cssText= `filter: blur(3px);-webkit-filter: blur(3px);`
